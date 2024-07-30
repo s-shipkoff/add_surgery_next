@@ -1,0 +1,61 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-image: url("neuro_bg.png");
+}
+
+/* Header styles */
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 60px;
+  height: 60px;
+  background-image: url("neuro86.ico");
+  background-size: contain;
+  margin: 5px 10px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 5px;
+}
+
+.header nav ul li {
+  cursor: pointer;
+  color: #4754c5;
+}
+
+/* Button styles */
+.button {
+  background-color: #d3d9f1;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #5f6caf;
+}
+
+/* Medical Timeline styles */
+.medical-timeline {
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
